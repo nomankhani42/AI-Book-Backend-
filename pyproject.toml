@@ -9,7 +9,7 @@ dependencies = [
     "pydantic>=2.12.5",
     "pydantic-settings>=2.12.0",
     "python-dotenv>=1.2.1",
-    "qdrant-client>=1.16.1",
+    "qdrant-client[fastembed]>=1.16.1",
     "uvicorn>=0.38.0",
     "httpx>=0.28.0",
 ]
